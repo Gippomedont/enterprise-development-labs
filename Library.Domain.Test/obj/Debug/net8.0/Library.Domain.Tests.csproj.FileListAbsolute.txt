@@ -1,0 +1,6 @@
+C:\Users\gippo\Desktop\laba\Library\Library.Domain.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_Library.Domain.Tests
+C:\Users\gippo\Desktop\laba\Library\Library.Domain.Test\obj\Debug\net8.0\Library.Domain.Tests.csproj.AssemblyReference.cache
+C:\Users\gippo\Desktop\laba\Library\Library.Domain.Test\obj\Debug\net8.0\Library.Domain.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gippo\Desktop\laba\Library\Library.Domain.Test\obj\Debug\net8.0\Library.Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\gippo\Desktop\laba\Library\Library.Domain.Test\obj\Debug\net8.0\Library.Domain.Tests.AssemblyInfo.cs
+C:\Users\gippo\Desktop\laba\Library\Library.Domain.Test\obj\Debug\net8.0\Library.Domain.Tests.csproj.CoreCompileInputs.cache
