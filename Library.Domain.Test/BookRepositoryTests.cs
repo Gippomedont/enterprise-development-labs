@@ -9,6 +9,13 @@ namespace Library.Domain.Tests
 {
     public class BookRepositoryTests
     {
+        /// <summary>
+        /// Тест проверяет успешное получение книги по шифру в каталоге.
+        /// </summary>
+        /// <remarks>
+        /// Этот тест проверяет, что метод <see cref="BookInMemoryRepository.GetByCatalogCode"/>
+        /// возвращает книгу с указанным шифром в каталоге и что её название соответствует ожидаемому.
+        /// </remarks>
         [Fact]
         public async Task GetBookByCatalogCode_Success()
         {
@@ -19,6 +26,13 @@ namespace Library.Domain.Tests
             Assert.Equal("Основы SQL", book?.Title);
         }
 
+        /// <summary>
+        /// Тест проверяет успешное получение наличия книги в отделах.
+        /// </summary>
+        /// <remarks>
+        /// Этот тест проверяет, что метод <see cref="BookInMemoryRepository.GetBookAvailability"/>
+        /// возвращает непустой список отделов, в которых доступна книга с указанным инвентарным номером.
+        /// </remarks>
         [Fact]
         public async Task GetBookAvailability_Success()
         {
@@ -29,6 +43,13 @@ namespace Library.Domain.Tests
             Assert.True(availability.Count > 0);
         }
 
+        /// <summary>
+        /// Тест проверяет успешное получение количества книг по типу издания.
+        /// </summary>
+        /// <remarks>
+        /// Этот тест проверяет, что метод <see cref="BookInMemoryRepository.GetBooksCountByPublicationType"/>
+        /// возвращает непустой список с количеством книг для каждого типа издания.
+        /// </remarks>
         [Fact]
         public async Task GetBooksCountByPublicationType_Success()
         {
@@ -40,3 +61,5 @@ namespace Library.Domain.Tests
         }
     }
 }
+// Опять же, комменты стараюсь писать по одному шаблону, что бы глаза не сильно болели
+// Могу добавить построчные пояснения, если необходимо
