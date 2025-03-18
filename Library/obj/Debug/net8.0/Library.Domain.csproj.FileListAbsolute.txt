@@ -1,4 +1,0 @@
-C:\Users\gippo\Desktop\laba\Library\Library\obj\Debug\net8.0\Library.Domain.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\gippo\Desktop\laba\Library\Library\obj\Debug\net8.0\Library.Domain.AssemblyInfoInputs.cache
-C:\Users\gippo\Desktop\laba\Library\Library\obj\Debug\net8.0\Library.Domain.AssemblyInfo.cs
-C:\Users\gippo\Desktop\laba\Library\Library\obj\Debug\net8.0\Library.Domain.csproj.CoreCompileInputs.cache
